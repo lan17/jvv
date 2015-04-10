@@ -213,7 +213,7 @@ public class JavaDia
     public static void main( String[] args )
     {
         //System.load( System.getProperty( "user.dir" ) + "/jogl.dll" );
-        //System.loadLibrary( "jogl" );
+        System.loadLibrary( "jogl" );
         DebugDialog.createNewDialog();
         displayT.start();
 
